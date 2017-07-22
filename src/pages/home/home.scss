@@ -1,0 +1,113 @@
+page-home {
+.bg-style {
+ //background:url('/assets/img/bg.jpg')center no-repeat;
+ background-color: #34c8e2;
+}
+.beniara{
+float: left;
+margin:10px 0px 0px 10px; 
+font-size: 2.5em;
+color:white;
+}
+.bilgi{
+float: right;
+margin:10px 10px 0px 0px; 
+font-size: 2.5em;
+color:white;
+}
+.logo img{
+  width: 85%;
+  text-align: center;
+  //width: auto;
+  margin: auto;
+  display: block;
+ 
+}
+/*iPhone = 5:*/
+@media screen and (device-aspect-ratio: 40/71) {
+
+  .logo {
+   height: 45%; 
+  }
+}
+
+/*iPhone < 5:*/
+@media screen and (device-aspect-ratio: 2/3) {
+
+  .logo {
+   height: 30%;
+  }
+  .logo img {
+  margin-top:10px!important;
+}
+}
+
+@media screen and (device-aspect-ratio: 3/4) {
+
+.row{
+    display: grid;
+
+}
+
+  .logo {
+   height: 30%; 
+  }
+
+}
+
+
+
+.icerik { 
+  height: 50%;
+  text-align: center;
+  width: auto;
+  margin: auto;
+  display: block;  
+}
+.icerik button{
+  background-color: #036163;
+  border-radius: 8px;
+   
+}
+.icerik .home-text{
+  color: #ffffff;
+  font-weight: bold;
+}
+.button{
+  color:#5bbde0;
+      font-weight: bold;
+    background-color: white;
+
+}
+.button-full {
+  border-radius: 2px;
+  height: 100px;
+}
+.home-text {
+  position: absolute;
+  bottom: 25%;
+}
+.icerik .home-icon{
+  color:#ffffff;
+}
+
+.home-icon{
+  
+    position: absolute;
+    top: 30%;
+}
+
+.no-scroll {
+    scroll-content {
+        overflow-y: hidden;
+    }
+}
+
+.scroll {
+    scroll-content {
+        overflow-y: hidden;
+    }
+}
+
+
+}

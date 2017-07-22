@@ -1,0 +1,44 @@
+page-iletisim {
+.ustkisim{
+    height: 50%;
+}
+
+.ustkisimicerik{
+    
+    border:2px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 10px;
+
+}
+#metin {
+max-width: 100%;
+width: 100%;
+height: 20px;
+}
+#metinarea {
+max-width: 100%;
+width: 100%;
+height: 100px;
+}
+p#pabout{
+     text-indent:50px; 
+    }
+h3#h3baslik{
+    text-align: center;
+}
+.altkisim{
+    height: 50%;
+}
+.duzen{
+    height: 95px;
+    width: 95px;
+}
+.item-divider{
+   font-weight: bold;
+   margin-left: 40px;
+
+}
+
+ ul {
+  list-style: none; }
+}

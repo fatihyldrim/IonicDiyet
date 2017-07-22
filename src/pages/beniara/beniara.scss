@@ -1,0 +1,33 @@
+page-beniara {
+.kapatbutton{
+float: right;
+background-color: color($colors,temarengi);
+color:white;
+}
+ .transparent {
+  background-color:#313335;
+  opacity: .90;
+
+    
+}
+
+.logo{
+    width: 80%;
+    padding-left: 20%;
+    padding-top: 20%;
+    
+  }
+
+  .aradiv{
+      
+     text-align: center;
+      width: 100%;
+      padding-top: 10%
+      
+  }
+  .arabutton{
+      width: 50%;
+      height: 35px;
+      background-color: color($colors,temarengi);
+  }
+}

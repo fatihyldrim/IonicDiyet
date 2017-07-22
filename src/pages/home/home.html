@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-icon (click) = "info()" class="beniara" name="ios-call-outline"></ion-icon>
+  <ion-icon (click) = "hakkimizda()" class="bilgi" name="ios-information-circle-outline"></ion-icon>
+</ion-header>
+<ion-content class="bg-style" no-bounce padding="true">
+  <div class="logo">
+  <img src="assets/img/logo.png" alt=""/>
+</div>
+<br><br>
+ <ion-grid class="icerik">
+<ion-row>
+    <ion-col width-33><button (click)="gitblog()"ion-button full><ion-icon class="home-icon" name="logo-rss"></ion-icon><span class="home-text">BLOG</span></button></ion-col>
+   <ion-col width-67><button (click)="gitsagliklitarifler()" ion-button full><ion-icon class="home-icon" name="pizza"></ion-icon><span class="home-text">SAĞLIKLI TARİFLER</span></button></ion-col>
+</ion-row>
+
+<ion-row>
+ <ion-col align-self-stretch width-33><button (click)="gitsorucevap()" ion-button full><ion-icon class="home-icon" name="help-buoy"></ion-icon><span class="home-text">SORU CEVAP</span></button></ion-col>
+   <ion-col width-67><button (click)="gituygulamalar()" ion-button full><ion-icon class="home-icon" name="apps"></ion-icon><span class="home-text">UYGULAMALAR</span></button></ion-col>
+ </ion-row>
+
+<ion-row>
+   <ion-col align-self-stretch width-100>
+<button style="font-family: open_sansbold" ion-button (click)="gitonlineDiyet()" block><span class="home-text">ONLINE DİYET</span></button>
+</ion-col>
+   </ion-row>
+ </ion-grid>
+</ion-content>
